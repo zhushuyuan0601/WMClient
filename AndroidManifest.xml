@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.wmmer"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.android.wmmer.MerLogin"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.android.homepagedetail.MerDishManage"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.hompage.MerNewOrders"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.homepagedetail.MerOrderDetail"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.wmmer.HActiomePageTabsvity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.hompage.MerOldOrders"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.homepagedetail.MerOldOrderFinish"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.homepagedetail.MerOldOrderUnfinish"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.hompage.MerEateryManage"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.wmmer.MerNewAccount"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.wmmer.MerForgetPsw"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.wmmer.MerResetPsw"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.hompage.MerHomePage"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.homepagedetail.MerReadComment"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.homepagedetail.MerDishChange"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.homepagedetail.MerDishTypeChange"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.homepagedetail.MerDishTypeNew"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.homepagedetail.MerEditMine"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.android.homepagedetail.MerDishChange2"
+            android:label="@string/app_name" >
+        </activity>
+    </application>
+
+</manifest>
